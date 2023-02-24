@@ -2,6 +2,10 @@
 
 The Todo List API is a RESTful web service that allows users to create, read, update, and delete items on a to-do list. The API utilizes HTTP requests to send and receive data in JSON format. The endpoints available in this API are as follows:
 
+POST /sign_up - user register here to use to-do service.
+
+POST /token - user is authenticated here and then a token is returned.
+
 GET /tasks - Retrieves a list of all the to-do items in the database.
 
 GET /tasks/{id} - Retrieves a specific to-do item by its ID.
